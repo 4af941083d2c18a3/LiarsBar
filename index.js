@@ -32,8 +32,6 @@ setting=(selector)=>{
     const resetFunc=()=>{
         count=6
         status.innerText="남은 탄창 : 6"
-        status.style.color"#fff"
-        status.style.fontSize="16px"
         wrap.innerText=""
         wrap.append(shootBtn)
         wrap.append(status)
