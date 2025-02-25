@@ -12,8 +12,8 @@ setting=(selector)=>{
     shootBtn.innerText="Shoot"
     shootBtn.append(revoler)
     status.innerText="남은 탄창 : 6"
-    status.color="#fff"
-    status.fontSize="16px"
+    status.style.color="#fff"
+    status.style.fontSize="16px"
     reset.innerText="Reset"
     var count=6
     const shoot=()=>{
@@ -21,8 +21,8 @@ setting=(selector)=>{
         if (bool) {
             shootBtn.remove()
             status.innerText="DEAD"
-            status.color="#f00"
-            status.fontSize="32px"
+            status.style.color="#f00"
+            status.style.fontSize="32px"
             wrap.append(reset)
         } else {
             count--
@@ -32,8 +32,8 @@ setting=(selector)=>{
     const resetFunc=()=>{
         count=6
         status.innerText="남은 탄창 : 6"
-        status.color"#fff"
-        status.fontSize="16px"
+        status.style.color"#fff"
+        status.style.fontSize="16px"
         wrap.innerText=""
         wrap.append(shootBtn)
         wrap.append(status)
