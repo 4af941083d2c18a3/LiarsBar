@@ -93,21 +93,21 @@ basic=()=>{
     setting('.left')
     setting('.right')
     setting('.bottom')
-    centerSet(["Ace","King","Queen"])
+    centerSet(["Spade","Heart","Diamond"])
 }
 devil=()=>{
     setting('.top')
     setting('.left')
     setting('.right')
     setting('.bottom')
-    centerSet(["Ace","King","Queen"])
+    centerSet(["Spade","Heart","Diamond"])
 }
 chaos=()=>{
     setting('.top')
     setting('.left')
     setting('.right')
     setting('.bottom')
-    centerSet(["King","Queen"])
+    centerSet(["Spade","Diamond"])
 }
 const basicBtn=document.createElement('button')
 const devilBtn=document.createElement('button')
