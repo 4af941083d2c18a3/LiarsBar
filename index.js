@@ -12,9 +12,6 @@ setting=(selector)=>{
     shootBtn.innerText="Shoot"
     shootBtn.append(revoler)
     status.innerText="남은 탄창 : 6"
-    status.style.color="#fff"
-    status.style.fontSize="16px"
-    reset.innerText="Reset"
     var count=6
     const shoot=()=>{
         const bool=Math.ceil(6-Math.random()*6)>=count
